@@ -1,14 +1,14 @@
 modLoader="javafml"
 loaderVersion="*"
 license="All rights reserved"
-issueTrackerURL="https://github.com/ricksouth/serilum-mc-mods/labels/Mod:%20Keep%20My%20Soil%20Tilled"
+issueTrackerURL="https://github.com/Serilum/.issue-tracker/labels/Mod:%20Keep%20My%20Soil%20Tilled"
 logoFile="icon.png"
 
 [[mods]]
 modId="keepmysoiltilled"
-version="2.1"
+version="2.2"
 displayName="Keep My Soil Tilled"
-displayURL="https://curseforge.com/minecraft/mc-mods/keep-my-soil-tilled"
+displayURL="https://serilum.com/mod/keep-my-soil-tilled"
 authors="Rick South"
 description='''Keeps soil tilled below a stem block (melon/pumpkin) after harvesting.
 '''
@@ -21,13 +21,15 @@ If you would like to contribute too, check out https://ricksouth.com/donate. App
 
 [[dependencies.keepmysoiltilled]]
     modId="collective"
+    type="required"
     mandatory=true
-    versionRange="[7.3,)"
+    versionRange="[7.21,)"
     ordering="NONE"
     side="BOTH"
 
 [[dependencies.keepmysoiltilled]]
     modId="minecraft"
+    type="required"
     mandatory=true
     versionRange="[1.20.2]"
     ordering="NONE"
