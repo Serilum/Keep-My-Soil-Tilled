@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "keepmysoiltilled",
-  "version": "2.2",
+  "version": "2.3",
 
   "name": "Keep My Soil Tilled",
   "description": "Keeps soil tilled below a stem block (melon/pumpkin) after harvesting.",
@@ -23,7 +23,7 @@
     "fabric": "*",
     "minecraft": ">=1.21",
     "java": ">=21",
-    "collective": ">=7.61"
+    "collective": ">=7.64"
   },
 
   "custom": {
@@ -46,10 +46,9 @@
 	  " aternosorg",
 	  " BirdieMiner",
 	  " Cherriesaurus",
-	  " Jeremy Langford",
 	  " Michael W. S.",
-	  " Rare Students",
 	  " Shana Gitnick",
+	  " Sukhmai",
 	  " Tyler Behl"
   ]
 }
