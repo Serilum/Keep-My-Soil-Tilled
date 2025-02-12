@@ -28,7 +28,7 @@ public class ModForge {
 	}
 
 	private void loadComplete(final FMLLoadCompleteEvent event) {
-    	MinecraftForge.EVENT_BUS.register(new ForgeStemBlockHarvestEvent());
+    	MinecraftForge.EVENT_BUS.register(ForgeStemBlockHarvestEvent.class);
 	}
 
 	private static void setGlobalConstants() {
