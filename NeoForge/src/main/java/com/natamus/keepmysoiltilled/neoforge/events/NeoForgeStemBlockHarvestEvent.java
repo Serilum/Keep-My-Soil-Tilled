@@ -3,12 +3,12 @@ package com.natamus.keepmysoiltilled.neoforge.events;
 import com.natamus.collective.functions.WorldFunctions;
 import com.natamus.keepmysoiltilled.events.StemBlockHarvestEvent;
 import net.minecraft.world.level.Level;
-import net.neoforged.neoforge.event.level.BlockEvent;
 import net.neoforged.bus.api.SubscribeEvent;
+import net.neoforged.neoforge.event.level.block.BreakBlockEvent;
 
 public class NeoForgeStemBlockHarvestEvent {
 	@SubscribeEvent
-	public static void onCropBlockBreak(BlockEvent.BreakEvent e) {
+	public static void onCropBlockBreak(BreakBlockEvent e) {
 		Level level = WorldFunctions.getWorldIfInstanceOfAndNotRemote(e.getLevel());
 		if (level == null) {
 			return;
