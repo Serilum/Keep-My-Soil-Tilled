@@ -4,5 +4,5 @@ public class Reference {
 	public static final String MOD_ID = "keepmysoiltilled";
 	public static final String NAME = "Keep My Soil Tilled";
 	public static final String VERSION = "2.6";
-	public static final String ACCEPTED_VERSIONS = "[26.1.2]";
+	public static final String ACCEPTED_VERSIONS = "[26.2.0]";
 }
