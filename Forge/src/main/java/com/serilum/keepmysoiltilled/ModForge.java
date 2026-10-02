@@ -1,9 +1,9 @@
-package com.natamus.keepmysoiltilled;
+package com.serilum.keepmysoiltilled;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.keepmysoiltilled.forge.events.ForgeStemBlockHarvestEvent;
-import com.natamus.keepmysoiltilled.util.Reference;
+import com.serilum.keepmysoiltilled.forge.events.ForgeStemBlockHarvestEvent;
+import com.serilum.keepmysoiltilled.util.Reference;
 import net.minecraftforge.eventbus.api.bus.BusGroup;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLLoadCompleteEvent;
@@ -27,7 +27,7 @@ public class ModForge {
 	}
 
 	private void loadComplete(final FMLLoadCompleteEvent event) {
-    	ForgeStemBlockHarvestEvent.registerEventsInBus();
+		ForgeStemBlockHarvestEvent.registerEventsInBus();
 	}
 
 	private static void setGlobalConstants() {

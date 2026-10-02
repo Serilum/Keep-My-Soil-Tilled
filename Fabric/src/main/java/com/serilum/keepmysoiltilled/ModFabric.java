@@ -1,10 +1,10 @@
-package com.natamus.keepmysoiltilled;
+package com.serilum.keepmysoiltilled;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
 import com.natamus.collective.fabric.callbacks.CollectiveBlockEvents;
-import com.natamus.keepmysoiltilled.events.StemBlockHarvestEvent;
-import com.natamus.keepmysoiltilled.util.Reference;
+import com.serilum.keepmysoiltilled.events.StemBlockHarvestEvent;
+import com.serilum.keepmysoiltilled.util.Reference;
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.entity.player.Player;
