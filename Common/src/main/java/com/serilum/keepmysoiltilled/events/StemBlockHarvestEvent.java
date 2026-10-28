@@ -1,6 +1,6 @@
-package com.natamus.keepmysoiltilled.events;
+package com.serilum.keepmysoiltilled.events;
 
-import com.natamus.keepmysoiltilled.util.Util;
+import com.serilum.keepmysoiltilled.util.Util;
 import net.minecraft.core.BlockPos;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.world.entity.player.Player;

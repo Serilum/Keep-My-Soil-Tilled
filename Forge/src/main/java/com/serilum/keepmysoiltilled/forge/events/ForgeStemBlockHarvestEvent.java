@@ -1,7 +1,7 @@
-package com.natamus.keepmysoiltilled.forge.events;
+package com.serilum.keepmysoiltilled.forge.events;
 
 import com.natamus.collective.functions.WorldFunctions;
-import com.natamus.keepmysoiltilled.events.StemBlockHarvestEvent;
+import com.serilum.keepmysoiltilled.events.StemBlockHarvestEvent;
 import net.minecraft.world.level.Level;
 import net.minecraftforge.event.level.BlockEvent;
 import net.minecraftforge.eventbus.api.bus.BusGroup;

@@ -1,7 +1,7 @@
-package com.natamus.keepmysoiltilled.neoforge.events;
+package com.serilum.keepmysoiltilled.neoforge.events;
 
 import com.natamus.collective.functions.WorldFunctions;
-import com.natamus.keepmysoiltilled.events.StemBlockHarvestEvent;
+import com.serilum.keepmysoiltilled.events.StemBlockHarvestEvent;
 import net.minecraft.world.level.Level;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.neoforge.event.level.block.BreakBlockEvent;

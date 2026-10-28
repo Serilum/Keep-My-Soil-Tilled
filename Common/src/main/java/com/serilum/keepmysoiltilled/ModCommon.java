@@ -1,4 +1,4 @@
-package com.natamus.keepmysoiltilled;
+package com.serilum.keepmysoiltilled;
 
 
 public class ModCommon {

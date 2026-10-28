@@ -1,4 +1,4 @@
-package com.natamus.keepmysoiltilled.util;
+package com.serilum.keepmysoiltilled.util;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
